@@ -1,7 +1,7 @@
 var:
   option:
     simplification: true
-  previously_selected_schema: leimaau_jyutping
+  previously_selected_schema: td_pinyin_flypy_jyutping
   schema_access_time:
     hannomPS: 1535417945
     hungmaau_jyutping: 1535354265
@@ -11,4 +11,4 @@ var:
     roma_kr: 1535416363
     stoke: 1535360462
     td_pinyin_flypy: 1535417970
-    td_pinyin_flypy_jyutping: 1535442460
+    td_pinyin_flypy_jyutping: 1535445495
