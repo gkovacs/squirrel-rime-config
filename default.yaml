@@ -3,7 +3,7 @@ ascii_composer:
   switch_key:
     Shift_L: noop
     Shift_R: noop
-config_version: 0.35.custom.578030578
+config_version: 0.36.custom.578030578
 customization: 578030578
 key_binder:
   bindings:
