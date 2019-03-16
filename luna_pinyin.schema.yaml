@@ -33,11 +33,10 @@ engine:
 key_binder:
   import_preset: default
 punctuator:
-  import_preset: symbols
+  import_preset: default
 recognizer:
   import_preset: default
   patterns:
-    punct: "^/([0-9]+[a-z]*|[a-z]+)$"
     reverse_lookup: "`[a-z]*'?$"
 reverse_lookup:
   comment_format:
@@ -64,7 +63,7 @@ schema:
     
   name: "朙月拼音"
   schema_id: luna_pinyin
-  version: 0.22.custom.1789946210
+  version: 0.21.custom.1789946210
 speller:
   algebra:
     - "xform/^([b-df-np-z])$/$1_/"

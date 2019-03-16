@@ -1,15 +1,22 @@
 var:
+  last_build_time: 1552704196
   option:
     simplification: true
-  previously_selected_schema: hangyl
+  previously_selected_schema: td_pinyin_flypy_jyutping
   schema_access_time:
-    hangyl: 1536110335
-    hannomPS: 1535417945
+    colemak: 1552699031
+    double_jyutping: 1552703828
+    double_jyutping_display: 1552694794
+    hangyl: 1552699099
+    hangyl_hanja: 1552698954
+    hannomPS: 1552697476
     hungmaau_jyutping: 1535354265
     jyutping: 1535359534
-    leimaau_jyutping: 1535489552
+    leimaau_jyutping: 1552699430
     luna_pinyin: 1525769866
+    "nihongo-hybrid": 1552698850
+    qwerty: 1552699105
     roma_kr: 1535416363
     stoke: 1535360462
-    td_pinyin_flypy: 1535417970
-    td_pinyin_flypy_jyutping: 1536110327
+    td_pinyin_flypy: 1552699494
+    td_pinyin_flypy_jyutping: 1552703840

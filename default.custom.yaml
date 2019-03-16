@@ -7,13 +7,20 @@
 patch:
   schema_list:
     - schema: td_pinyin_flypy_jyutping
+    #- schema: td_pinyin_flypy_jyutping_display
+    #- schema: leimaau_jyutping_zhuyin_nospaces
     #- schema: td_pinyin_flypy          # 朙月拼音
-    - schema: leimaau_jyutping
-    - schema: hangyl
+    - schema: double_jyutping
+    #- schema: double_jyutping_display
+    #- schema: leimaau_jyutping
+    #- schema: hangyl
     #- schema: hangyl_hanja
-    #- schema: hannomPS
+    - schema: nihongo-hybrid
+    - schema: hannomPS
+    - schema: colemak
+    - schema: qwerty
     #- schema: roma_kr
-    #- schema: stoke
+    #- schema: stroke_zhuyin_jyutping
     #- schema: luna_pinyin          # 朙月拼音
     #- schema: double_pinyin        # 自然碼雙拼
   "menu/page_size": 9
@@ -50,5 +57,9 @@ patch:
       - {accept: "Control+Shift+numbersign", toggle: full_shape, when: always}
       - {accept: "Control+Shift+dollar", toggle: simplification, when: always}
       - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
-      - {accept: "Shift+space", toggle: full_shape, when: always}
       - {accept: "Control+period", toggle: ascii_punct, when: always}
+      - {accept: "Control+Shift+z", select: .next, when: always}
+      - {accept: "Control+Shift+Z", select: .next, when: always}
+      - {accept: "Control+Shift+a", toggle: ascii_mode, when: always}
+      - {accept: "Control+Shift+A", toggle: ascii_mode, when: always}
+      - {accept: "Shift+space", toggle: full_shape, when: always}

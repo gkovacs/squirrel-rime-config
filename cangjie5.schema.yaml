@@ -4,7 +4,7 @@
 schema:
   schema_id: cangjie5
   name: 倉頡五代
-  version: "0.24"
+  version: "0.22"
   author:
     - 發明人 朱邦復先生
   description: |
@@ -50,7 +50,6 @@ engine:
   filters:
     - simplifier
     - uniquifier
-    - single_char_filter
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -93,7 +92,7 @@ simplifier:
   tips: all  # 簡化字模式下提示對應的傳統漢字
 
 punctuator:
-  import_preset: symbols
+  import_preset: default
 
 key_binder:
   import_preset: default
@@ -101,5 +100,4 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    punct: "^/[0-9]*[a-z]*$"
     reverse_lookup: "`[a-z]*'?$"
