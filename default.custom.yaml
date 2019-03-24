@@ -6,10 +6,12 @@
 
 patch:
   schema_list:
+    - schema: td_pinyin_flypy_jyutping_colemak
     - schema: td_pinyin_flypy_jyutping
     #- schema: td_pinyin_flypy_jyutping_display
     #- schema: leimaau_jyutping_zhuyin_nospaces
     #- schema: td_pinyin_flypy          # 朙月拼音
+    - schema: double_jyutping_colemak
     - schema: double_jyutping
     #- schema: double_jyutping_display
     #- schema: leimaau_jyutping
@@ -17,8 +19,10 @@ patch:
     #- schema: hangyl_hanja
     - schema: nihongo-hybrid
     - schema: hannomPS
-    - schema: colemak
-    - schema: qwerty
+    - schema: colemak_double_jyutping
+    - schema: qwerty_double_jyutping
+    - schema: colemak_td_pinyin_flypy_jyutping
+    - schema: qwerty_td_pinyin_flypy_jyutping
     #- schema: roma_kr
     #- schema: stroke_zhuyin_jyutping
     #- schema: luna_pinyin          # 朙月拼音
@@ -62,5 +66,14 @@ patch:
       - {accept: "Control+Shift+Z", select: .next, when: always}
       - {accept: "Control+Shift+a", toggle: ascii_mode, when: always}
       - {accept: "Control+Shift+A", toggle: ascii_mode, when: always}
-      - {accept: "Shift+space", toggle: .next, when: always}
-      - {accept: "Control+space", toggle: .next, when: always}
+      #- {accept: "Shift+space", toggle: .next, when: always}
+      #- {accept: "Control+space", toggle: .next, when: always}
+  switcher:
+    abbreviate_options: true
+    caption: "〔方案選單〕"
+    fold_options: true
+    hotkeys:
+      - "Alt+grave"
+      - "Control+grave"
+      - "Control+Shift+grave"
+      - F4

@@ -1,11 +1,14 @@
 var:
-  last_build_time: 1553414111
+  last_build_time: 1553419283
   option:
     simplification: true
-  previously_selected_schema: colemak
+  previously_selected_schema: td_pinyin_flypy_jyutping_colemak
   schema_access_time:
-    colemak: 1553414173
+    colemak: 1553414953
+    colemak_double_jyutping: 1553415382
+    colemak_double_jyutping.schema.yaml: 1553415271
     double_jyutping: 1552703828
+    double_jyutping_colemak: 1553415912
     double_jyutping_display: 1552694794
     hangyl: 1552699099
     hangyl_hanja: 1552698954
@@ -19,4 +22,5 @@ var:
     roma_kr: 1535416363
     stoke: 1535360462
     td_pinyin_flypy: 1552699494
-    td_pinyin_flypy_jyutping: 1553414168
+    td_pinyin_flypy_jyutping: 1553414876
+    td_pinyin_flypy_jyutping_colemak: 1553416211

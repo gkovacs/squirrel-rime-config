@@ -12,7 +12,6 @@
       "terra_pinyin_nospaces.extended",
       "stroke_zhuyin_jyutping",
       "leimaau_zhuyin_jyutping_nospaces",
-      "leimaau_jyutping_zhuyin_nospaces",
       "double_jyutping",
       "td_pinyin_flypy_jyutping"
     ]
@@ -875,22 +874,22 @@
     "import_preset": "default",
     "bindings": [
       {
-        "accept": "Control+Shift+f",
+        "accept": "Control+Alt+f",
         "toggle": "zh_simp",
         "when": "always"
       },
       {
-        "accept": "Control+Shift+F",
+        "accept": "Control+Alt+F",
         "toggle": "zh_simp",
         "when": "always"
       },
       {
-        "accept": "Control+Shift+t",
+        "accept": "Control+Alt+t",
         "toggle": "zh_tw",
         "when": "always"
       },
       {
-        "accept": "Control+Shift+T",
+        "accept": "Control+Alt+T",
         "toggle": "zh_tw",
         "when": "always"
       },
@@ -905,12 +904,22 @@
         "when": "always"
       },
       {
-        "accept": "Control+Shift+space",
+        "accept": "Control+Alt+space",
+        "select": "colemak_double_jyutping_display",
+        "when": "always"
+      },
+      {
+        "accept": "Shift+Alt+space",
         "select": "colemak_double_jyutping_display",
         "when": "always"
       },
       {
         "accept": "Control+space",
+        "select": "qwerty_double_jyutping_display",
+        "when": "always"
+      },
+      {
+        "accept": "Shift+space",
         "select": "qwerty_double_jyutping_display",
         "when": "always"
       },

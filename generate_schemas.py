@@ -52,43 +52,51 @@ def clone_schema(schema_name):
 
 def generate_key_binder(basename, newname, switchname, isqwerty):
   binding_base = yaml.load('''
-  - {accept: "Control+Shift+f", toggle: zh_simp, when: always}
-  - {accept: "Control+Shift+F", toggle: zh_simp, when: always}
-  - {accept: "Control+Shift+t", toggle: zh_tw, when: always}
-  - {accept: "Control+Shift+T", toggle: zh_tw, when: always}
+  - {accept: "Control+Alt+f", toggle: zh_simp, when: always}
+  - {accept: "Control+Alt+F", toggle: zh_simp, when: always}
+  - {accept: "Control+Alt+t", toggle: zh_tw, when: always}
+  - {accept: "Control+Alt+T", toggle: zh_tw, when: always}
   ''')
   nb = []
   if basename == 'double_jyutping' or basename == 'double_jyutping_display':
     nb.append({'accept': 'q', 'send': 'q', 'when': 'composing'})
     nb.append({'accept': 'q', 'send': '&', 'when': 'always'})
   if isqwerty:
-    nb.append({'accept': 'Control+Shift+space', 'select': 'colemak_' + newname, 'when': 'always'})
+    nb.append({'accept': 'Control+Alt+space', 'select': 'colemak_' + newname, 'when': 'always'})
+    nb.append({'accept': 'Shift+Alt+space', 'select': 'colemak_' + newname, 'when': 'always'})
     nb.append({'accept': 'Control+space', 'select': 'qwerty_' + newname, 'when': 'always'})
+    nb.append({'accept': 'Shift+space', 'select': 'qwerty_' + newname, 'when': 'always'})
     nb.append({'accept': 'F35', 'select': switchname, 'when': 'always'})
     nb.append({'accept': 'Alt+space', 'select': switchname, 'when': 'always'})
   else:
-    nb.append({'accept': 'Control+Shift+space', 'select': 'qwerty_' + newname, 'when': 'always'})
+    nb.append({'accept': 'Control+Alt+space', 'select': 'qwerty_' + newname, 'when': 'always'})
+    nb.append({'accept': 'Shift+Alt+space', 'select': 'qwerty_' + newname, 'when': 'always'})
     nb.append({'accept': 'Control+space', 'select': 'colemak_' + newname, 'when': 'always'})
+    nb.append({'accept': 'Shift+space', 'select': 'colemak_' + newname, 'when': 'always'})
     nb.append({'accept': 'F35', 'select': switchname + '_colemak', 'when': 'always'})
     nb.append({'accept': 'Alt+space', 'select': switchname + '_colemak', 'when': 'always'})
   return binding_base + nb
 
 def generate_key_binder_qwertycolemak(basename, newname, switchname, isqwerty):
   binding_base = yaml.load('''
-  - {accept: "Control+Shift+f", toggle: zh_simp, when: always}
-  - {accept: "Control+Shift+F", toggle: zh_simp, when: always}
-  - {accept: "Control+Shift+t", toggle: zh_tw, when: always}
-  - {accept: "Control+Shift+T", toggle: zh_tw, when: always}
+  - {accept: "Control+Alt+f", toggle: zh_simp, when: always}
+  - {accept: "Control+Alt+F", toggle: zh_simp, when: always}
+  - {accept: "Control+Alt+t", toggle: zh_tw, when: always}
+  - {accept: "Control+Alt+T", toggle: zh_tw, when: always}
   ''')
   nb = []
   if isqwerty:
-    nb.append({'accept': 'Control+Shift+space', 'select': 'colemak_' + newname, 'when': 'always'})
+    nb.append({'accept': 'Control+Alt+space', 'select': 'colemak_' + newname, 'when': 'always'})
+    nb.append({'accept': 'Shift+Alt+space', 'select': 'colemak_' + newname, 'when': 'always'})
     nb.append({'accept': 'Control+space', 'select': newname, 'when': 'always'})
+    nb.append({'accept': 'Shift+space', 'select': newname, 'when': 'always'})
     nb.append({'accept': 'F35', 'select': switchname, 'when': 'always'})
     nb.append({'accept': 'Alt+space', 'select': switchname, 'when': 'always'})
   else:
-    nb.append({'accept': 'Control+Shift+space', 'select': 'qwerty_' + newname, 'when': 'always'})
+    nb.append({'accept': 'Control+Alt+space', 'select': 'qwerty_' + newname, 'when': 'always'})
+    nb.append({'accept': 'Shift+Alt+space', 'select': 'qwerty_' + newname, 'when': 'always'})
     nb.append({'accept': 'Control+space', 'select': newname + '_colemak', 'when': 'always'})
+    nb.append({'accept': 'Shift+space', 'select': newname + '_colemak', 'when': 'always'})
     nb.append({'accept': 'F35', 'select': switchname + '_colemak', 'when': 'always'})
     nb.append({'accept': 'Alt+space', 'select': switchname + '_colemak', 'when': 'always'})
   return binding_base + nb
