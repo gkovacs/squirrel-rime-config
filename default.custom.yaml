@@ -62,4 +62,5 @@ patch:
       - {accept: "Control+Shift+Z", select: .next, when: always}
       - {accept: "Control+Shift+a", toggle: ascii_mode, when: always}
       - {accept: "Control+Shift+A", toggle: ascii_mode, when: always}
-      - {accept: "Shift+space", toggle: full_shape, when: always}
+      - {accept: "Shift+space", toggle: .next, when: always}
+      - {accept: "Control+space", toggle: .next, when: always}

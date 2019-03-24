@@ -1,3 +1,12 @@
 patch:
   us_keyboard_layout: true
-  
+  app_options:
+    com.apple.Terminal:
+      ascii_mode: true
+      no_inline: true
+    com.googlecode.iterm2:
+      ascii_mode: false
+    com.sublimetext.2:
+      ascii_mode: false
+    com.microsoft.VSCode:
+      ascii_mode: false
