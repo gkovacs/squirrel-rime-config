@@ -15,7 +15,7 @@ patch:
     - schema: double_jyutping
     #- schema: double_jyutping_display
     #- schema: leimaau_jyutping
-    #- schema: hangyl
+    - schema: hangyl
     #- schema: hangyl_hanja
     - schema: nihongo-hybrid
     - schema: hannomPS
