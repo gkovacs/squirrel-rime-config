@@ -21,8 +21,8 @@ patch:
     - schema: hannomPS
     #- schema: colemak_double_jyutping
     #- schema: qwerty_double_jyutping
-    #- schema: colemak_td_pinyin_flypy_jyutping
-    #- schema: qwerty_td_pinyin_flypy_jyutping
+    - schema: colemak_td_pinyin_flypy_jyutping
+    - schema: qwerty_td_pinyin_flypy_jyutping
     #- schema: roma_kr
     #- schema: stroke_zhuyin_jyutping
     #- schema: luna_pinyin          # 朙月拼音
@@ -66,8 +66,14 @@ patch:
       - {accept: "Control+Shift+Z", select: .next, when: always}
       - {accept: "Control+Shift+a", toggle: ascii_mode, when: always}
       - {accept: "Control+Shift+A", toggle: ascii_mode, when: always}
-      #- {accept: "Shift+space", toggle: .next, when: always}
-      #- {accept: "Control+space", toggle: .next, when: always}
+      # - {accept: "Shift+space", select: .next, when: always}
+      # - {accept: "Control+space", select: .next, when: always}
+      # - {accept: "Command+space", select: .next, when: always}
+      # - {accept: "Meta+space", select: .next, when: always}
+      # - {accept: "Win+space", select: .next, when: always}
+      # - {accept: "Alt+space", select: .next, when: always}
+      # - {accept: "Option+space", select: .next, when: always}
+      # - {accept: "F19", select: .next, when: always}
   switcher:
     abbreviate_options: true
     caption: "〔方案選單〕"
@@ -77,3 +83,4 @@ patch:
       - "Control+grave"
       - "Control+Shift+grave"
       - F4
+      - F18

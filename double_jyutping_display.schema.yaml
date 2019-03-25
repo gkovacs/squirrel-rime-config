@@ -914,12 +914,12 @@
         "when": "always"
       },
       {
-        "accept": "Control+space",
+        "accept": "F19",
         "select": "qwerty_double_jyutping_display",
         "when": "always"
       },
       {
-        "accept": "Shift+space",
+        "accept": "Control+space",
         "select": "qwerty_double_jyutping_display",
         "when": "always"
       },

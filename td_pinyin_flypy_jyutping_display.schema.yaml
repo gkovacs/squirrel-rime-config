@@ -913,12 +913,12 @@
         "when": "always"
       },
       {
-        "accept": "Control+space",
+        "accept": "F19",
         "select": "qwerty_td_pinyin_flypy_jyutping_display",
         "when": "always"
       },
       {
-        "accept": "Shift+space",
+        "accept": "Control+space",
         "select": "qwerty_td_pinyin_flypy_jyutping_display",
         "when": "always"
       },

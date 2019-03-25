@@ -1117,12 +1117,12 @@
         "when": "always"
       },
       {
-        "accept": "Control+space",
+        "accept": "F19",
         "select": "colemak_td_pinyin_flypy_jyutping",
         "when": "always"
       },
       {
-        "accept": "Shift+space",
+        "accept": "Control+space",
         "select": "colemak_td_pinyin_flypy_jyutping",
         "when": "always"
       },

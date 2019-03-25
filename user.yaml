@@ -1,8 +1,8 @@
 var:
-  last_build_time: 1553419819
+  last_build_time: 1553537375
   option:
     simplification: true
-  previously_selected_schema: td_pinyin_flypy_jyutping
+  previously_selected_schema: qwerty_td_pinyin_flypy_jyutping
   schema_access_time:
     colemak: 1553414953
     colemak_double_jyutping: 1553415382
@@ -10,7 +10,7 @@ var:
     double_jyutping: 1553419844
     double_jyutping_colemak: 1553415912
     double_jyutping_display: 1552694794
-    hangyl: 1553419828
+    hangyl: 1553534888
     hangyl_hanja: 1552698954
     hannomPS: 1552697476
     hungmaau_jyutping: 1535354265
@@ -19,8 +19,10 @@ var:
     luna_pinyin: 1525769866
     "nihongo-hybrid": 1552698850
     qwerty: 1552699105
+    qwerty_double_jyutping: 1553537283
+    qwerty_td_pinyin_flypy_jyutping: 1553537388
     roma_kr: 1535416363
     stoke: 1535360462
     td_pinyin_flypy: 1552699494
-    td_pinyin_flypy_jyutping: 1553419845
+    td_pinyin_flypy_jyutping: 1553534890
     td_pinyin_flypy_jyutping_colemak: 1553416211
