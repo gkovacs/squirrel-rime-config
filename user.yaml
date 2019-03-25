@@ -1,5 +1,5 @@
 var:
-  last_build_time: 1553537375
+  last_build_time: 1553547091
   option:
     simplification: true
   previously_selected_schema: qwerty_td_pinyin_flypy_jyutping
@@ -7,6 +7,7 @@ var:
     colemak: 1553414953
     colemak_double_jyutping: 1553415382
     colemak_double_jyutping.schema.yaml: 1553415271
+    colemak_td_pinyin_flypy_jyutping: 1553538936
     double_jyutping: 1553419844
     double_jyutping_colemak: 1553415912
     double_jyutping_display: 1552694794
@@ -20,9 +21,9 @@ var:
     "nihongo-hybrid": 1552698850
     qwerty: 1552699105
     qwerty_double_jyutping: 1553537283
-    qwerty_td_pinyin_flypy_jyutping: 1553537388
+    qwerty_td_pinyin_flypy_jyutping: 1553539722
     roma_kr: 1535416363
     stoke: 1535360462
     td_pinyin_flypy: 1552699494
-    td_pinyin_flypy_jyutping: 1553534890
+    td_pinyin_flypy_jyutping: 1553539671
     td_pinyin_flypy_jyutping_colemak: 1553416211

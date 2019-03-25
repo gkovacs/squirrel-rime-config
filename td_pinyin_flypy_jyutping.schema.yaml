@@ -1117,6 +1117,11 @@
         "when": "always"
       },
       {
+        "accept": "F17",
+        "select": "colemak_td_pinyin_flypy_jyutping",
+        "when": "always"
+      },
+      {
         "accept": "F19",
         "select": "qwerty_td_pinyin_flypy_jyutping",
         "when": "always"
@@ -1128,6 +1133,11 @@
       },
       {
         "accept": "F35",
+        "select": "double_jyutping",
+        "when": "always"
+      },
+      {
+        "accept": "F16",
         "select": "double_jyutping",
         "when": "always"
       },

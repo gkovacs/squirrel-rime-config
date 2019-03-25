@@ -64,16 +64,20 @@ def generate_key_binder(basename, newname, switchname, isqwerty):
   if isqwerty:
     nb.append({'accept': 'Control+Alt+space', 'select': 'colemak_' + newname, 'when': 'always'})
     nb.append({'accept': 'Shift+Alt+space', 'select': 'colemak_' + newname, 'when': 'always'})
+    nb.append({'accept': 'F17', 'select': 'colemak_' + newname, 'when': 'always'})
     nb.append({'accept': 'F19', 'select': 'qwerty_' + newname, 'when': 'always'})
     nb.append({'accept': 'Control+space', 'select': 'qwerty_' + newname, 'when': 'always'})
     nb.append({'accept': 'F35', 'select': switchname, 'when': 'always'})
+    nb.append({'accept': 'F16', 'select': switchname, 'when': 'always'})
     nb.append({'accept': 'Alt+space', 'select': switchname, 'when': 'always'})
   else:
     nb.append({'accept': 'Control+Alt+space', 'select': 'qwerty_' + newname, 'when': 'always'})
     nb.append({'accept': 'Shift+Alt+space', 'select': 'qwerty_' + newname, 'when': 'always'})
+    nb.append({'accept': 'F17', 'select': 'qwerty_' + newname, 'when': 'always'})
     nb.append({'accept': 'F19', 'select': 'colemak_' + newname, 'when': 'always'})
     nb.append({'accept': 'Control+space', 'select': 'colemak_' + newname, 'when': 'always'})
     nb.append({'accept': 'F35', 'select': switchname + '_colemak', 'when': 'always'})
+    nb.append({'accept': 'F16', 'select': switchname + '_colemak', 'when': 'always'})
     nb.append({'accept': 'Alt+space', 'select': switchname + '_colemak', 'when': 'always'})
   return binding_base + nb
 
@@ -88,16 +92,20 @@ def generate_key_binder_qwertycolemak(basename, newname, switchname, isqwerty):
   if isqwerty:
     nb.append({'accept': 'Control+Alt+space', 'select': 'colemak_' + newname, 'when': 'always'})
     nb.append({'accept': 'Shift+Alt+space', 'select': 'colemak_' + newname, 'when': 'always'})
+    nb.append({'accept': 'F17', 'select': 'colemak_' + newname, 'when': 'always'})
     nb.append({'accept': 'F19', 'select': newname, 'when': 'always'})
     nb.append({'accept': 'Control+space', 'select': newname, 'when': 'always'})
     nb.append({'accept': 'F35', 'select': switchname, 'when': 'always'})
+    nb.append({'accept': 'F16', 'select': switchname, 'when': 'always'})
     nb.append({'accept': 'Alt+space', 'select': switchname, 'when': 'always'})
   else:
     nb.append({'accept': 'Control+Alt+space', 'select': 'qwerty_' + newname, 'when': 'always'})
     nb.append({'accept': 'Shift+Alt+space', 'select': 'qwerty_' + newname, 'when': 'always'})
+    nb.append({'accept': 'F17', 'select': 'qwerty_' + newname, 'when': 'always'})
     nb.append({'accept': 'F19', 'select': newname + '_colemak', 'when': 'always'})
     nb.append({'accept': 'Control+space', 'select': newname + '_colemak', 'when': 'always'})
     nb.append({'accept': 'F35', 'select': switchname + '_colemak', 'when': 'always'})
+    nb.append({'accept': 'F16', 'select': switchname + '_colemak', 'when': 'always'})
     nb.append({'accept': 'Alt+space', 'select': switchname + '_colemak', 'when': 'always'})
   return binding_base + nb
 

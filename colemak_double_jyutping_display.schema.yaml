@@ -156,6 +156,11 @@
         "when": "always"
       },
       {
+        "accept": "F17",
+        "select": "qwerty_double_jyutping_display",
+        "when": "always"
+      },
+      {
         "accept": "F19",
         "select": "double_jyutping_display_colemak",
         "when": "always"
@@ -167,6 +172,11 @@
       },
       {
         "accept": "F35",
+        "select": "td_pinyin_flypy_jyutping_display_colemak",
+        "when": "always"
+      },
+      {
+        "accept": "F16",
         "select": "td_pinyin_flypy_jyutping_display_colemak",
         "when": "always"
       },
