@@ -57,6 +57,7 @@ engine:
     - affix_segmentor@hannom_lookup
     - affix_segmentor@kanji_lookup
     - affix_segmentor@hanja_lookup
+    - affix_segmentor@cangjie_lookup
     - punct_segmentor
     - fallback_segmentor
   translators:
@@ -70,6 +71,7 @@ engine:
     - script_translator@hannom_lookup
     - script_translator@kanji_lookup
     - script_translator@hanja_lookup
+    - script_translator@cangjie_lookup
   filters:
     - simplifier@zh_simp
     #- simplifier@zh_simp2
@@ -85,6 +87,7 @@ engine:
     - reverse_lookup_filter@hannom_reverse_lookup
     - reverse_lookup_filter@kanji_reverse_lookup
     - reverse_lookup_filter@hanja_reverse_lookup
+    - reverse_lookup_filter@cangjie_reverse_lookup
 
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba;/,.'
@@ -424,6 +427,17 @@ jyutping_to_putonghua_lookup:
     #- 'xform q ng'
   tips: 【粵查普】
   #closing_tips: 【粵拼】
+
+cangjie_lookup:
+  tag: cangjie_lookup
+  prefix: "`C"  # 獨用jyutping_lookup反查在反查鍵「`」之後再鍵入〔大寫〕「J」
+  suffix: "`"
+  dictionary: "cangjie5_charonly"
+  #preedit_format:
+  #  - xform/'/ /
+  #  - xform/(^|[ '])([qx])/$1/
+  #  - xform/([qx])/ng/
+  tips: 【倉】
 
 jyutping_to_stroke_lookup:
   tag: jyutping_to_stroke_lookup
@@ -1179,8 +1193,22 @@ hanja_reverse_lookup:
     - xform/(^|[ '])q/$1/
     - xform/q/ng/
 
+cangjie_reverse_lookup:
+  tags: [ cangjie_lookup ]
+  dictionary: leimaau_zhuyin_jyutping_charonly
+  #spelling_hints: 10
+  overwrite_comment: true  # 覆蓋其他提示
+  #dictionary: terra_pinyin_nospaces.extended
+  #comment_format:
+  #  - xform/(^|[ '])q/$1/
+  #  - xform/q/ng/
+
 punctuator:
   import_preset: default
+
+abc_segmentor:
+  extra_tags:
+    - jyutping_to_putonghua_lookup  # 與拼音（反查碼）混打
 
 key_binder:
   import_preset: default
@@ -1210,6 +1238,7 @@ recognizer:
     hannom_lookup: "`V[a-z]*?$"
     kanji_lookup: "`N[a-z]*?$"
     hanja_lookup: "`K[a-z]*?$"
+    cangjie_lookup: "`C[a-z]*?$"
     punct: ^/[0-9]?[a-z]*$
 
 

@@ -316,6 +316,13 @@ def main():
       continue
     print_with_pronunciation(word, outfile=outfile)
   outfile.close()
+  outfile = open('leimaau_zhuyin_jyutping_charonly.dict.yaml', 'wt')
+  print_header('leimaau_zhuyin_jyutping_charonly', outfile=outfile)
+  for word in get_word_list():
+    if len(word) > 1:
+      continue
+    print_with_pronunciation_jyutzhu(word, outfile=outfile)
+  outfile.close()
   outfile = open('leimaau_zhuyin_jyutping_nospaces.dict.yaml', 'wt')
   print_header('leimaau_zhuyin_jyutping_nospaces', outfile=outfile)
   for word in get_word_list():

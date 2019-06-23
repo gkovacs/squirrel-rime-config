@@ -72,6 +72,7 @@
       "affix_segmentor@hannom_lookup",
       "affix_segmentor@kanji_lookup",
       "affix_segmentor@hanja_lookup",
+      "affix_segmentor@cangjie_lookup",
       "punct_segmentor",
       "fallback_segmentor"
     ],
@@ -85,7 +86,8 @@
       "script_translator@jyutping_to_stroke_lookup",
       "script_translator@hannom_lookup",
       "script_translator@kanji_lookup",
-      "script_translator@hanja_lookup"
+      "script_translator@hanja_lookup",
+      "script_translator@cangjie_lookup"
     ],
     "filters": [
       "simplifier@zh_simp",
@@ -97,7 +99,8 @@
       "reverse_lookup_filter@jyutping_to_stroke_reverse_lookup",
       "reverse_lookup_filter@hannom_reverse_lookup",
       "reverse_lookup_filter@kanji_reverse_lookup",
-      "reverse_lookup_filter@hanja_reverse_lookup"
+      "reverse_lookup_filter@hanja_reverse_lookup",
+      "reverse_lookup_filter@cangjie_reverse_lookup"
     ]
   },
   "speller": {
@@ -349,6 +352,13 @@
       "xform/P/p/"
     ],
     "tips": "【粵查普】"
+  },
+  "cangjie_lookup": {
+    "tag": "cangjie_lookup",
+    "prefix": "`C",
+    "suffix": "`",
+    "dictionary": "cangjie5_charonly",
+    "tips": "【倉】"
   },
   "jyutping_to_stroke_lookup": {
     "tag": "jyutping_to_stroke_lookup",
@@ -1030,8 +1040,20 @@
       "xform/q/ng/"
     ]
   },
+  "cangjie_reverse_lookup": {
+    "tags": [
+      "cangjie_lookup"
+    ],
+    "dictionary": "leimaau_zhuyin_jyutping_charonly",
+    "overwrite_comment": true
+  },
   "punctuator": {
     "import_preset": "default"
+  },
+  "abc_segmentor": {
+    "extra_tags": [
+      "jyutping_to_putonghua_lookup"
+    ]
   },
   "key_binder": {
     "import_preset": "default",
@@ -1121,6 +1143,7 @@
       "hannom_lookup": "`V[a-z]*?$",
       "kanji_lookup": "`N[a-z]*?$",
       "hanja_lookup": "`K[a-z]*?$",
+      "cangjie_lookup": "`C[a-z]*?$",
       "punct": "^/[0-9]?[a-z]*$"
     }
   },

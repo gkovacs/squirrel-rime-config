@@ -135,6 +135,11 @@
       "xform/^·//"
     ]
   },
+  "abc_segmentor": {
+    "extra_tags": [
+      "putonghua_to_jyutping_lookup"
+    ]
+  },
   "jyutping_lookup": {
     "tag": "jyutping_lookup",
     "spelling_hints": 10,
@@ -891,7 +896,7 @@
     "tags": [
       "jyutping_to_putonghua_lookup"
     ],
-    "dictionary": "terra_pinyin_nospaces.extended"
+    "dictionary": "leimaau_zhuyin_jyutping_nospaces"
   },
   "punctuator": {
     "import_preset": "default"

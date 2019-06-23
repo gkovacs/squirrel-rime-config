@@ -326,6 +326,10 @@ reverse_lookup:
 #    - zyenpheng_lookup
 #    - naambaak_lookup
 
+abc_segmentor:
+  extra_tags:
+    - putonghua_to_jyutping_lookup  # 與拼音（反查碼）混打
+
 #reverse_lookup:
 #  dictionary: stroke
 #  enable_completion: true
@@ -1159,7 +1163,7 @@ cangjie_reverse_lookup:
 
 putonghua_to_jyutping_reverse_lookup:
   tags: [ putonghua_to_jyutping_lookup ]
-  dictionary: leimaau_jyutping_nospaces
+  dictionary: leimaau_jyutping_zhuyin_nospaces
   spelling_hints: 10
   overwrite_comment: true  # 覆蓋其他提示
   #comment_format:
@@ -1170,7 +1174,8 @@ putonghua_to_jyutping_reverse_lookup:
 jyutping_to_putonghua_reverse_lookup:
   tags: [ jyutping_to_putonghua_lookup ]
   #spelling_hints: 10
-  dictionary: terra_pinyin_nospaces.extended
+  #dictionary: terra_pinyin_nospaces.extended
+  dictionary: leimaau_zhuyin_jyutping_nospaces
   #  overwrite_comment: true  # 覆蓋其他提示
   #comment_format:
   #  - xform/ /\｜/
