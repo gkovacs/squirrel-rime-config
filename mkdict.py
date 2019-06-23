@@ -96,6 +96,11 @@ def pinyin_to_zhuyin_fake(pinyin):
     'g5?': 'g',
     'g5': 'g',
     'p5': 'p',
+    'rua1': 'ruā',
+    'rua2': 'ruá',
+    'rua3': 'ruǎˇ',
+    'rua4': 'ruà',
+    'rua5': 'rua',
   }
   if pinyin in mappings:
     return mappings[pinyin]
@@ -223,6 +228,11 @@ def pinyin_to_zhuyin_real(pinyin):
     'g5?': 'ㄍ˙',
     'g5': 'ㄍ˙',
     'p5': 'ㄆ˙',
+    'rua1': 'ㄖㄨㄚ',
+    'rua2': 'ㄖㄨㄚˊ',
+    'rua3': 'ㄖㄨㄚˇ',
+    'rua4': 'ㄖㄨㄚˋ',
+    'rua5': 'ㄖㄨㄚ˙',
   }
   if pinyin in mappings:
     return mappings[pinyin]
