@@ -250,6 +250,7 @@ translator:
     - xform wa ㄨㄚ
     - xform wu ㄨ
     - xform yi ㄧ
+    - xform yu ㄩ
     - xform un ㄨㄣ
     - xform ui ㄨㄟ
     - xform ju ㄐㄩ
@@ -665,6 +666,7 @@ putonghua_to_jyutping_lookup:
     - xform wa ㄨㄚ
     - xform wu ㄨ
     - xform yi ㄧ
+    - xform yu ㄩ
     - xform un ㄨㄣ
     - xform ui ㄨㄟ
     - xform ju ㄐㄩ
