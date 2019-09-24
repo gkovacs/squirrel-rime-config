@@ -18,11 +18,12 @@ patch:
     - schema: hangyl
     #- schema: hangyl_hanja
     - schema: nihongo-hybrid
-    ###- schema: hannomPS
+    - schema: hannomPS
     #- schema: colemak_double_jyutping
     #- schema: qwerty_double_jyutping
     - schema: colemak_td_pinyin_flypy_jyutping
     - schema: qwerty_td_pinyin_flypy_jyutping
+    - schema: latin_international
     #- schema: roma_kr
     #- schema: stroke_zhuyin_jyutping
     #- schema: luna_pinyin          # 朙月拼音
