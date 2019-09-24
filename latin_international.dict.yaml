@@ -137,36 +137,27 @@ Z	Z
 # portuguese letters
 â	;aa
 Â	;Aa
-Â	;AA
 ã	;ax
 Ã	;Ax
 à	;af
 À	;Af
-À	;AF
 ç	;c
 Ç	;C
 ê	;ee
 Ê	;Ee
-Ê	;EE
 ô	;oo
 Ô	;Oo
-Ô	;OO
 õ	;ox
 Õ	;Ox
-Õ	;OX
 # french letters
 è	;ef
 È	;Ef
-È	;EF
 ù	;uf
 Ù	;Uf
-Ù	;UF
 î	;ii
 Î	;Ii
-Î	;II
 û	;uu
 Û	;Uu
-Û	;UU
 ë	;ev
 Ë	;Ev
 ï	;iv
@@ -198,7 +189,7 @@ Z	Z
 Ǒ	;O,
 ǔ	;u,
 Ǔ	;U,
-# use ;; for ü with tone marks in pinyin
+# use ;j for ü with tone marks in pinyin
 ǖ	;juv-
 Ǖ	;jUv-
 ǘ	;juvs
@@ -207,5 +198,41 @@ Z	Z
 Ǚ	;jUv,
 ǜ	;juvf
 Ǜ	;jUvf
-# vietnamese letters (no tones)
-# use ;; for letters with tones in vietnamese
+# vietnamese letters with diacritics
+đ	;d
+Đ	;D
+ă	;aw
+Ă	;Aw
+ơ	;ow
+Ơ	;Ow
+ư	;uw
+Ư	;Uw
+# vietnamese with diacritics but no tones
+ỳ	;yf
+Ỳ	;Yf
+ỷ	;yr
+Ỷ	;Yr
+ỹ	;yx
+Ỹ	;Yx
+ý	;ys
+Ý	;Ys
+ỵ	;yj
+Ỵ	;Yj
+# use ;j for letters with diacritics and tones in vietnamese
+ằ ;jawf
+Ằ ;jAwf
+ầ ;jaaf
+Ầ ;jAaf
+ề ;jeef
+Ề ;jEef
+ồ ;joof
+Ồ ;jOof
+ờ ;jowf
+Ờ ;jOwf
+ừ ;juwf
+Ừ ;jUwf
+
+# Ả/ả, Ẳ/ẳ, Ẩ/ẩ, Ẻ/ẻ, Ể/ể, Ỉ/ỉ, Ỏ/ỏ, Ổ/ổ, Ở/ở, Ủ/ủ, Ử/ử, Ỷ/ỷ
+# Ã/ã, Ẵ/ẵ, Ẫ/ẫ, Ẽ/ẽ, Ễ/ễ, Ĩ/ĩ, Õ/õ, Ỗ/ỗ, Ỡ/ỡ, Ũ/ũ, Ữ/ữ, Ỹ/ỹ
+# Á/á, Ắ/ắ, Ấ/ấ, É/é, Ế/ế, Í/í, Ó/ó, Ố/ố, Ớ/ớ, Ú/ú, Ứ/ứ, Ý/ý
+# Ạ/ạ, Ặ/ặ, Ậ/ậ, Ẹ/ẹ, Ệ/ệ, Ị/ị, Ọ/ọ, Ộ/ộ, Ợ/ợ, Ụ/ụ, Ự/ự, Ỵ/ỵ
