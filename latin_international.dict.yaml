@@ -21,6 +21,7 @@ sort: original
 ...
 
 ;	;
+:	:
 0	0
 1	1
 2	2
@@ -103,45 +104,108 @@ y	y
 Y	Y
 z	z
 Z	Z
+# punctuation
+;	;;
 # german letters
 ß	;s
 ẞ	;S
-ö	;o;
-Ö	;O;
-ü	;u;
-Ü	;U;
-ä	;a;
-Ä	;A;
+ö	;ov
+Ö	;Ov
+ü	;uv
+Ü	;Uv
+ä	;av
+Ä	;Av
 # spanish letters
 ñ	;n
 Ñ	;N
-á	;a/
 á	;as
-Á	;A/
 Á	;As
-é	;e/
 é	;es
-É	;E/
 É	;Es
-í	;i/
 í	;is
-Í	;i/
-Í	;is
-ó	;o/
+Í	;Is
 ó	;os
-Ó	;O/
 Ó	;Os
-ú	;u/
 ú	;us
-Ú	;U/
 Ú	;Us
 ¿	;?
 # hungarian letters
-ő	;o'
-Ő	;O'
-ű	;u'
-Ű	;U'
+ő	;o;
+Ő	;O;
+ű	;u;
+Ű	;U;
 # portuguese letters
+â	;aa
+Â	;Aa
+Â	;AA
+ã	;ax
+Ã	;Ax
+à	;af
+À	;Af
+À	;AF
+ç	;c
+Ç	;C
+ê	;ee
+Ê	;Ee
+Ê	;EE
+ô	;oo
+Ô	;Oo
+Ô	;OO
+õ	;ox
+Õ	;Ox
+Õ	;OX
 # french letters
-# pinyin letters?
-# vietnamese will use reverse lookup functionality from : key
+è	;ef
+È	;Ef
+È	;EF
+ù	;uf
+Ù	;Uf
+Ù	;UF
+î	;ii
+Î	;Ii
+Î	;II
+û	;uu
+Û	;Uu
+Û	;UU
+ë	;ev
+Ë	;Ev
+ï	;iv
+Ï	;Iv
+ÿ	;yv
+Ÿ	;Yv
+# pinyin letters
+ā	;a-
+Ā	;A-
+ē	;e-
+Ē	;E-
+ī	;i-
+Ī	;I-
+ō	;o-
+Ō	;O-
+ū	;u-
+Ū	;U-
+ì	;if
+Ì	;If
+ò	;of
+Ò	;Of
+ǎ	;a,
+Ǎ	;A,
+ě	;e,
+Ě	;E,
+ǐ	;i,
+Ǐ	;I,
+ǒ	;o,
+Ǒ	;O,
+ǔ	;u,
+Ǔ	;U,
+# use ;; for ü with tone marks in pinyin
+ǖ	;juv-
+Ǖ	;jUv-
+ǘ	;juvs
+Ǘ	;jUvs
+ǚ	;juv,
+Ǚ	;jUv,
+ǜ	;juvf
+Ǜ	;jUvf
+# vietnamese letters (no tones)
+# use ;; for letters with tones in vietnamese
