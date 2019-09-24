@@ -1,5 +1,5 @@
 var:
-  last_build_time: 1569287289
+  last_build_time: 1569290936
   previously_selected_schema: latin_international
   schema_access_time:
     cangjie5: 1561265981
@@ -7,6 +7,6 @@ var:
     colemak_td_pinyin_flypy_jyutping: 1567882410
     double_jyutping: 1566344568
     hannomPS: 1568411951
-    latin_international: 1569287301
+    latin_international: 1569289459
     qwerty_td_pinyin_flypy_jyutping: 1567822239
     td_pinyin_flypy_jyutping: 1568412441
