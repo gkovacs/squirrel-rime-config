@@ -164,6 +164,10 @@ Z	Z
 Ï	;Iv
 ÿ	;yv
 Ÿ	;Yv
+œ	;oe
+Œ	;Oe
+æ	;ae
+Æ	;Ae
 # pinyin letters
 ā	;a-
 Ā	;A-
@@ -207,32 +211,178 @@ Z	Z
 Ơ	;Ow
 ư	;uw
 Ư	;Uw
-# vietnamese with diacritics but no tones
+# vietnamese with tones but no diacritics
 ỳ	;yf
 Ỳ	;Yf
+ả	;ar
+Ả	;Ar
+ẻ	;er
+Ẻ	;Er
+ỉ	;ir
+Ỉ	;Ir
+ỏ	;or
+Ỏ	;Or
+ủ	;ur
+Ủ	;Ur
 ỷ	;yr
 Ỷ	;Yr
+ẽ	;ex
+Ẽ	;Ex
+ĩ	;ix
+Ĩ	;Ix
+ũ	;ux
+Ũ	;Ux
 ỹ	;yx
 Ỹ	;Yx
 ý	;ys
 Ý	;Ys
+ạ	;aj
+Ạ	;Aj
+ẹ	;ej
+Ẹ	;Ej
+ị	;ij
+Ị	;Ij
+ọ	;oj
+Ọ	;Oj
+ụ	;uj
+Ụ	;Uj
 ỵ	;yj
 Ỵ	;Yj
 # use ;j for letters with diacritics and tones in vietnamese
-ằ ;jawf
-Ằ ;jAwf
-ầ ;jaaf
-Ầ ;jAaf
-ề ;jeef
-Ề ;jEef
-ồ ;joof
-Ồ ;jOof
-ờ ;jowf
-Ờ ;jOwf
-ừ ;juwf
-Ừ ;jUwf
-
-# Ả/ả, Ẳ/ẳ, Ẩ/ẩ, Ẻ/ẻ, Ể/ể, Ỉ/ỉ, Ỏ/ỏ, Ổ/ổ, Ở/ở, Ủ/ủ, Ử/ử, Ỷ/ỷ
-# Ã/ã, Ẵ/ẵ, Ẫ/ẫ, Ẽ/ẽ, Ễ/ễ, Ĩ/ĩ, Õ/õ, Ỗ/ỗ, Ỡ/ỡ, Ũ/ũ, Ữ/ữ, Ỹ/ỹ
-# Á/á, Ắ/ắ, Ấ/ấ, É/é, Ế/ế, Í/í, Ó/ó, Ố/ố, Ớ/ớ, Ú/ú, Ứ/ứ, Ý/ý
-# Ạ/ạ, Ặ/ặ, Ậ/ậ, Ẹ/ẹ, Ệ/ệ, Ị/ị, Ọ/ọ, Ộ/ộ, Ợ/ợ, Ụ/ụ, Ự/ự, Ỵ/ỵ
+ằ	;jawf
+Ằ	;jAwf
+ầ	;jaaf
+Ầ	;jAaf
+ề	;jeef
+Ề	;jEef
+ồ	;joof
+Ồ	;jOof
+ờ	;jowf
+Ờ	;jOwf
+ừ	;juwf
+Ừ	;jUwf
+ẳ	;jawr
+Ẳ	;jAwr
+ẩ	;jaar
+Ẩ	;jAar
+ể	;jeer
+Ể	;jEer
+ổ	;joor
+Ổ	;jOor
+ở	;jowr
+Ở	;jOwr
+ử	;juwr
+Ử	;jUwr
+ẵ	;jawx
+Ẵ	;jAwx
+ẫ	;jaax
+Ẫ	;jAax
+ễ	;jeex
+Ễ	;jEex
+ỗ	;joox
+Ỗ	;jOox
+ỡ	;jowx
+Ỡ	;jOwx
+ữ	;juwx
+Ữ	;jUwx
+ắ	;jaws
+Ắ	;jAws
+ấ	;jaas
+Ấ	;jAas
+ế	;jees
+Ế	;jEes
+ố	;joos
+Ố	;jOos
+ớ	;jows
+Ớ	;jOws
+ứ	;juws
+Ứ	;jUws
+ặ	;jawj
+Ặ	;jAwj
+ậ	;jaaj
+Ậ	;jAaj
+ệ	;jeej
+Ệ	;jEej
+ộ	;jooj
+Ộ	;jOoj
+ợ	;jowj
+Ợ	;jOwj
+ự	;juwj
+Ự	;jUwj
+# danish letters
+ø	;o/
+Ø	;O/
+å	;a;
+Å	;A;
+å	;a.
+Å	;A.
+# icelandic letters
+ð	;jd
+Ð	;jD
+þ	;t
+Þ	;T
+# romanian letters
+ș	;js/
+Ș	;jS/
+ț	;jt/
+Ț	;jT/
+# czech letters
+č	;jc,
+Č	;jC,
+ď	;jd,
+Ď	;jD,
+ň	;jn,
+Ň	;jN,
+ř	;r,
+Ř	;R,
+ř	;jr,
+Ř	;jR,
+š	;js,
+Š	;jS,
+ť	;jt,
+Ť	;jT,
+ž	;z,
+Ž	;Z,
+ž	;jz,
+Ž	;jZ,
+ů	;u.
+Ů	;U.
+# polish letters https://en.wikipedia.org/wiki/Polish_orthography
+ł	;l
+Ł	;L
+ć	;jcs
+Ć	;jCs
+ń	;jns
+Ń	;jNs
+ś	;jss
+Ś	;jSs
+ź	;zs
+Ź	;Zs
+ź	;jzs
+Ź	;jZs
+ż	;z.
+Ż	;Z.
+ż	;jz.
+Ż	;jZ.
+ą	;a[
+Ą	;A[
+ę	;e[
+Ę	;E[
+# turkish alphabet
+ç	;jc[
+Ç	;jC[
+ş	;js[
+Ş	;jS[
+ğ	;g,
+ğ	;jg,
+Ğ	;G,
+Ğ	;jG,
+ı	;i.
+ı	;i;
+İ	;i.
+İ	;i;
+# lithuanian alphabet
+# ų į ę ą ė
+# Ų Į Ę Ą Ė
+# latvian alphabet
+# ėę

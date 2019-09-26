@@ -1,10 +1,10 @@
 var:
-  last_build_time: 1569311270
-  previously_selected_schema: latin_international
+  last_build_time: 1569381886
+  previously_selected_schema: td_pinyin_flypy_jyutping
   schema_access_time:
     cangjie5: 1561265981
     cangjie5_charonly: 1561266427
     double_jyutping: 1568615805
     hannomPS: 1569310599
     latin_international: 1569310842
-    td_pinyin_flypy_jyutping: 1568615809
+    td_pinyin_flypy_jyutping: 1569389668
